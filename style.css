@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Old Standard TT", serif;
+}
+
+body{
+    background-image:url(./assets/background.jpg);
+    background-position: center;
+}
+
+.back-body{
+    margin: 30px auto 0;
+    width: 95%;
+    background: #313030;
+    border-radius: 30px;
+    padding: 0 0 10px;
+}
+
+header{
+    background: #bfbfc2;
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+}
+
+header h1{
+    font-family:"Arial", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.text-main{
+    color: #fff;
+    font-size: 44px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 200px 0 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+
+   
+
+    
+}
+
+.card1{
+    border-radius: 15px;
+    border: 4px solid red;
+}
+
+.card2{
+    border-radius: 15px;
+    border: 4px solid red;
+}
+
+.card3{
+    border-radius: 15px;
+    border: 4px solid red;
+}
+
+.button-main{
+    display: block;
+    margin: 60px auto 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #e8e8fa ;
+    animation: 1s ease-in infinite ;
+}
+
+.button-main:hover{
+    opacity: 0.4;
+}
+
+.heart{
+    display: none;
+   font-size: 70px;
+   text-align: center;
+   margin-top: 30px;
+   color: red;
+}
+span{
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1631px ){
+    .card1, .card2, .card3{
+        width: 30%;
+        
+    }
+
+}
+
+@media screen and (max-width:991px ){
+    header h1{
+        font-size: 40px;
+        padding-top: 16px;
+    }
+    
+    .text-main{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:802px ){
+    header h1{
+        font-size: 35px;
+        padding-top: 18px;
+    }
+    
+    .text-main{
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .card1, .card2, .card3{
+        width: 70%;
+        
+        
+    }
+
+}
+
+@media screen and (max-width:633px ){
+    .text-main{
+        padding-top: 57px;
+        padding-bottom: 60px;
+        width: 90%;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:633px ){
+    header h1{
+        font-size: 29px;
+        padding-top: 20px;
+    }
+    
+    .text-main{
+        padding-top: 57px;
+        padding-bottom: 60px;
+        width: 90%;
+        font-size: 19px;
+    }
+
+}
+@media screen and (max-width:410px ){
+    header h1{
+        font-size: 23px;
+        padding-top: 29px;
+    }
+    
+    .text-main{
+        padding-top: 57px;
+        padding-bottom: 60px;
+        width: 90%;
+        font-size: 19px;
+    }
+
+}
